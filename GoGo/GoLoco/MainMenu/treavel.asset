@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: treavel
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 086135956afd76442bad49178cec25e5, type: 2}
+  controls:
+  - name: Treavel lock
+    icon: {fileID: 2800000, guid: acd93fff024c649408e9f21737626b70, type: 3}
+    type: 102
+    parameter:
+      name: Go/Stationary
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Forward
+    icon: {fileID: 2800000, guid: 98c20911706ea434388d8b38198de375, type: 3}
+    type: 203
+    parameter:
+      name: VRCEmote
+    value: 125
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/sideshiftY
+    labels: []
+  - name: Enable me first
+    icon: {fileID: 2800000, guid: 2d7d5a4738461494e88a30d42236555f, type: 3}
+    type: 102
+    parameter:
+      name: Go/Float
+    value: 0.49
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/Float
+    labels: []
+  - name: Enable me first (high)
+    icon: {fileID: 2800000, guid: dd5a7e4ba5dd14e488bc338aa572df8d, type: 3}
+    type: 102
+    parameter:
+      name: Go/Float
+    value: 0.75
+    style: 0
+    subMenu: {fileID: 11400000, guid: 81d9664b52a81d941b2e293dfc4ddd58, type: 2}
+    subParameters:
+    - name: Go/Float
+    labels: []
+  - name: INSTRUCTIONS
+    icon: {fileID: 2800000, guid: 17ebbe889b0e12346ad7a95ad1852f48, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 81d9664b52a81d941b2e293dfc4ddd58, type: 2}
+    subParameters:
+    - name: Go/Float
+    labels: []
+  - name: Height reset
+    icon: {fileID: 2800000, guid: c7ac1f2995aa8374cae15a6cbe2f6940, type: 3}
+    type: 102
+    parameter:
+      name: Go/Float
+    value: 0.5
+    style: 0
+    subMenu: {fileID: 11400000, guid: 81d9664b52a81d941b2e293dfc4ddd58, type: 2}
+    subParameters:
+    - name: Go/Float
+    labels: []
