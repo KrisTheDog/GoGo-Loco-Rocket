@@ -1,4 +1,8 @@
 # GoGo-Loco-Rocket
+
+# DO NOT UPDATE YOUR CLIENT!!!
+just in case they patched it, do not update until you are sure it still works on latest version
+
 Fork of GoGo Loco with new fly/fast treavel system
 
 based on:
